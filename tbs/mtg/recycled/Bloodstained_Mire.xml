@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<card xmlns="http://sourceforge.net/projects/firemox" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://sourceforge.net/projects/firemox ../../validator.xsd"
+    name="Bloodstained Mire">
+    <!-- not tested yet -->
+    <rules-author-comment>Hoani CROSS</rules-author-comment>
+    <init>
+        <idcards>land</idcards>
+    </init>
+    <abilities>
+        <ability ref="cast-land"/>
+        <activated-ability playable="instant" zone="play" resolution="auto">
+            <cost>
+                <action ref="T"/>
+                <action ref="sacrifice-this"/>
+            </cost>
+            <effects>
+                <target type="card" mode="choose" restriction-zone="library" raise-event="false">
+                	<test>
+                		<and>
+	                		<or>
+	                			<has-idcard idcard="mountain"/>
+	                			<has-idcard idcard="swamp"/>
+	                		</or>
+	                		<owner card="tested" player="you"/>
+	                	</and>
+                	</test>
+                </target>
+                <move-card destination="play" controller="owner"/>
+                <shuffle zone="library"/>
+            </effects>
+        </activated-ability>
+    </abilities>
+</card>

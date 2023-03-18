@@ -1,0 +1,8 @@
+super card;20
+bad moon;20
+swamp;20
+Nightmare;20
+Yawgmoths_Will;20
+Black_knight;20
+Rally the Righteous;20
+Demonfire;20

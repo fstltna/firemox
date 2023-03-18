@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<card xmlns='http://sourceforge.net/projects/firemox'
+	xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+	xsi:schemaLocation='http://sourceforge.net/projects/firemox ../../validator.xsd'
+	name="Mogg Squad">
+<rules-author-comment>riclas</rules-author-comment>
+
+<!--
+		1r
+	creature - goblin
+	3/3
+	mogg squad gets -1/-1 for each other creature in play.
+ -->
+
+	<init>
+		<registers>
+			<register index='red' value='1'/>
+			<register index='colorless' value='1'/>
+			<register index='power' value='3'/>
+			<register index='toughness' value='3'/>
+		</registers>
+		<colors>red </colors>
+		<idcards>creature </idcards>
+		<properties>goblin </properties>
+	</init>
+	<abilities>
+		<ability ref='cast-spell'/>
+	</abilities>
+	<modifiers>
+		<static-modifier filter-zone="play">
+			<modifiers>
+			 	<register-modifier index="power" operation="minus" linked="true" layer="global">
+			 		<value>
+			 			<counter restriction-zone="play">
+			 				<and>
+			 					<has-idcard idcard="creature"/>
+			 					<not>
+			 						<is-this/>
+			 					</not>
+			 				</and>
+			 			</counter>
+			 		</value>
+			 	</register-modifier>			 		
+			 	<register-modifier index="toughness" operation="minus" linked="true" layer="global">
+			 		<value>
+			 			<counter restriction-zone="play">
+			 				<and>
+			 					<has-idcard idcard="creature"/>
+			 					<not>
+			 						<is-this/>
+			 					</not>
+			 				</and>
+			 			</counter>
+			 		</value>
+			 	</register-modifier>
+			</modifiers>
+			<while>
+				<is-this/>
+			</while>
+		</static-modifier>
+	</modifiers>
+</card>

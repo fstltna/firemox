@@ -1,0 +1,29 @@
+name: firemox # you probably want to 'snapcraft register <name>'
+base: core18 # the base snap is the execution environment for this snap
+version: '0.95.52' # just for humans, typically '1.2+git' or '1.3.2'
+summary:  Collectable card game
+description: |
+   Magic:The Gathering over LAN or Internet, alone or against another player (need IP of your opponent). The program is the judge : you play with the true rules. Firemox can also emulate another TBS. Written in Java, works on Mac, Windows and Linux.
+
+grade: stable # must be 'stable' to release into candidate/stable channels
+confinement: strict # use 'strict' once you have the right plugs and slots
+icon:  firemox_icon.png
+title: Firemox
+
+apps:
+  firemox:
+    command: startfiremox
+parts:
+  firemox:
+    # See 'snapcraft plugins'
+    plugin: dump
+    source: .
+#    build-packages: [default-jre]
+#    stage-packages: [default-jre]
+    organize:
+      firemox: build/
+      firemox.1: man/man1/
+
+architectures:
+  - build-on: amd64
+

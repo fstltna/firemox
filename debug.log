@@ -1,0 +1,105 @@
+#Session:-742414668;Sat Mar 18 02:30:49 PDT 2023
+-742414668#[main] DEBUG - ConfigurationUtils.locate(): base is null, name is settings.xml
+-742414668#[main] DEBUG - Loading configuration from the path settings.xml
+-742414668#[main] DEBUG - MP Language : Default
+-742414668#[main] ERROR - Exception during the TBS initalisation.
+	Input file = tbs/norules-mtg/norules-mtg.mdb
+-742414668#[main] ERROR - 	java.lang.NullPointerException
+-742414668#[main] ERROR - 		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
+-742414668#[main] ERROR - 		at net.sf.firemox.deckbuilder.MdbLoader.openMdb(MdbLoader.java:309)
+-742414668#[main] ERROR - 		at net.sf.firemox.AbstractMainForm.updateMdbMenu(AbstractMainForm.java:121)
+-742414668#[main] ERROR - 		at net.sf.firemox.AbstractMainForm.initAbstractMenu(AbstractMainForm.java:84)
+-742414668#[main] ERROR - 		at net.sf.firemox.ui.MagicUIComponents.initComponents(MagicUIComponents.java:532)
+-742414668#[main] ERROR - 		at net.sf.firemox.Magic.<init>(Magic.java:116)
+-742414668#[main] ERROR - 		at net.sf.firemox.Magic.main(Magic.java:510)
+-742414668#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+-742414668#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+-742414668#[main] ERROR - 		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+-742414668#[main] ERROR - 		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+-742414668#[main] ERROR - 		at fabdouglas.Starter.boot(Starter.java:103)
+-742414668#[main] ERROR - 		at fabdouglas.Starter.init(Starter.java:75)
+-742414668#[main] ERROR - 		at fabdouglas.Starter.main(Starter.java:127)
+-742414668#[main] DEBUG - exportedDamageTypeNames (6)
+-742414668#[main] INFO - Download from http://www.wizards.com/magic/advanced/7e/images/white_mana_40w.jpg(0 bytes)
+-742414668#[main] ERROR - ERROR : could not load mana picture 5
+-742414668#[main] ERROR - 	java.lang.NullPointerException
+-742414668#[main] ERROR - 		at net.sf.firemox.tools.MToolKit.getLocalPicture(MToolKit.java:758)
+-742414668#[main] ERROR - 		at net.sf.firemox.tools.Picture.loadImage(Picture.java:353)
+-742414668#[main] ERROR - 		at net.sf.firemox.tools.Picture.loadImage(Picture.java:284)
+-742414668#[main] ERROR - 		at net.sf.firemox.clickable.mana.Mana.init(Mana.java:113)
+-742414668#[main] ERROR - 		at net.sf.firemox.ui.MagicUIComponents.setMdb(MagicUIComponents.java:644)
+-742414668#[main] ERROR - 		at net.sf.firemox.Magic.<init>(Magic.java:224)
+-742414668#[main] ERROR - 		at net.sf.firemox.Magic.main(Magic.java:510)
+-742414668#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+-742414668#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+-742414668#[main] ERROR - 		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+-742414668#[main] ERROR - 		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+-742414668#[main] ERROR - 		at fabdouglas.Starter.boot(Starter.java:103)
+-742414668#[main] ERROR - 		at fabdouglas.Starter.init(Starter.java:75)
+-742414668#[main] ERROR - 		at fabdouglas.Starter.main(Starter.java:127)
+-742414668#[main] FATAL - could not load picture /home/marisag/Magic - Project/tbs/mtg/images/magic_the_gathering.jpg from URL http://mi.wizards.com/global/images/magic/general/magic_the_gathering.jpg, mi.wizards.com
+-742414668#[main] DEBUG - java.lang.RuntimeException: could not load picture /home/marisag/Magic - Project/tbs/mtg/images/magic_the_gathering.jpg from URL http://mi.wizards.com/global/images/magic/general/magic_the_gathering.jpg, mi.wizards.com
+-742414668#[main] DEBUG - java.lang.NullPointerException
+#Session:2019546793;Sat Mar 18 02:43:40 PDT 2023
+2019546793#[main] DEBUG - ConfigurationUtils.locate(): base is null, name is settings.xml
+2019546793#[main] DEBUG - Loading configuration from the path settings.xml
+2019546793#[main] DEBUG - MP Language : Default
+2019546793#[main] ERROR - Exception during the TBS initalisation.
+	Input file = tbs/norules-mtg/norules-mtg.mdb
+2019546793#[main] ERROR - 	java.lang.NullPointerException
+2019546793#[main] ERROR - 		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
+2019546793#[main] ERROR - 		at net.sf.firemox.deckbuilder.MdbLoader.openMdb(MdbLoader.java:309)
+2019546793#[main] ERROR - 		at net.sf.firemox.AbstractMainForm.updateMdbMenu(AbstractMainForm.java:121)
+2019546793#[main] ERROR - 		at net.sf.firemox.AbstractMainForm.initAbstractMenu(AbstractMainForm.java:84)
+2019546793#[main] ERROR - 		at net.sf.firemox.ui.MagicUIComponents.initComponents(MagicUIComponents.java:532)
+2019546793#[main] ERROR - 		at net.sf.firemox.Magic.<init>(Magic.java:116)
+2019546793#[main] ERROR - 		at net.sf.firemox.Magic.main(Magic.java:510)
+2019546793#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019546793#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2019546793#[main] ERROR - 		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2019546793#[main] ERROR - 		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2019546793#[main] ERROR - 		at fabdouglas.Starter.boot(Starter.java:103)
+2019546793#[main] ERROR - 		at fabdouglas.Starter.init(Starter.java:75)
+2019546793#[main] ERROR - 		at fabdouglas.Starter.main(Starter.java:127)
+2019546793#[main] DEBUG - exportedDamageTypeNames (6)
+2019546793#[main] INFO - Download from http://www.wizards.com/magic/advanced/7e/images/white_mana_40w.jpg(0 bytes)
+2019546793#[main] ERROR - ERROR : could not load mana picture 5
+2019546793#[main] ERROR - 	java.lang.NullPointerException
+2019546793#[main] ERROR - 		at net.sf.firemox.tools.MToolKit.getLocalPicture(MToolKit.java:758)
+2019546793#[main] ERROR - 		at net.sf.firemox.tools.Picture.loadImage(Picture.java:353)
+2019546793#[main] ERROR - 		at net.sf.firemox.tools.Picture.loadImage(Picture.java:284)
+2019546793#[main] ERROR - 		at net.sf.firemox.clickable.mana.Mana.init(Mana.java:113)
+2019546793#[main] ERROR - 		at net.sf.firemox.ui.MagicUIComponents.setMdb(MagicUIComponents.java:644)
+2019546793#[main] ERROR - 		at net.sf.firemox.Magic.<init>(Magic.java:224)
+2019546793#[main] ERROR - 		at net.sf.firemox.Magic.main(Magic.java:510)
+2019546793#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2019546793#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2019546793#[main] ERROR - 		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2019546793#[main] ERROR - 		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+2019546793#[main] ERROR - 		at fabdouglas.Starter.boot(Starter.java:103)
+2019546793#[main] ERROR - 		at fabdouglas.Starter.init(Starter.java:75)
+2019546793#[main] ERROR - 		at fabdouglas.Starter.main(Starter.java:127)
+2019546793#[main] FATAL - could not load picture /home/marisag/Documents/MySnaps/firemox/tbs/mtg/images/magic_the_gathering.jpg from URL http://mi.wizards.com/global/images/magic/general/magic_the_gathering.jpg, mi.wizards.com
+2019546793#[main] DEBUG - java.lang.RuntimeException: could not load picture /home/marisag/Documents/MySnaps/firemox/tbs/mtg/images/magic_the_gathering.jpg from URL http://mi.wizards.com/global/images/magic/general/magic_the_gathering.jpg, mi.wizards.com
+2019546793#[main] DEBUG - java.lang.NullPointerException
+#Session:-238083054;Sat Mar 18 02:44:40 PDT 2023
+-238083054#[main] DEBUG - ConfigurationUtils.locate(): base is null, name is settings.xml
+-238083054#[main] DEBUG - Loading configuration from the path settings.xml
+-238083054#[main] DEBUG - MP Language : Default
+-238083054#[main] ERROR - Exception during the TBS initalisation.
+	Input file = tbs/norules-mtg/norules-mtg.mdb
+-238083054#[main] ERROR - 	java.lang.NullPointerException
+-238083054#[main] ERROR - 		at java.base/java.io.FileInputStream.<init>(FileInputStream.java:149)
+-238083054#[main] ERROR - 		at net.sf.firemox.deckbuilder.MdbLoader.openMdb(MdbLoader.java:309)
+-238083054#[main] ERROR - 		at net.sf.firemox.AbstractMainForm.updateMdbMenu(AbstractMainForm.java:121)
+-238083054#[main] ERROR - 		at net.sf.firemox.AbstractMainForm.initAbstractMenu(AbstractMainForm.java:84)
+-238083054#[main] ERROR - 		at net.sf.firemox.ui.MagicUIComponents.initComponents(MagicUIComponents.java:532)
+-238083054#[main] ERROR - 		at net.sf.firemox.Magic.<init>(Magic.java:116)
+-238083054#[main] ERROR - 		at net.sf.firemox.Magic.main(Magic.java:510)
+-238083054#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+-238083054#[main] ERROR - 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+-238083054#[main] ERROR - 		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+-238083054#[main] ERROR - 		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+-238083054#[main] ERROR - 		at fabdouglas.Starter.boot(Starter.java:103)
+-238083054#[main] ERROR - 		at fabdouglas.Starter.init(Starter.java:75)
+-238083054#[main] ERROR - 		at fabdouglas.Starter.main(Starter.java:127)
